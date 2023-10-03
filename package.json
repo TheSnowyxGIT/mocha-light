@@ -1,0 +1,25 @@
+{
+  "name": "mocha-light",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/public/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "bin": {
+    "mocha-light": "./bin/mocha-light.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.8.2",
+    "@typescript-eslint/eslint-plugin": "^6.7.4",
+    "@typescript-eslint/parser": "^6.7.4",
+    "eslint": "^8.50.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@types/colors": "^1.2.1",
+    "colors": "^1.4.0"
+  }
+}
