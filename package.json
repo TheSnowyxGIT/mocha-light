@@ -2,24 +2,34 @@
   "name": "mocha-light",
   "version": "1.0.0",
   "description": "",
-  "main": "src/public/index.js",
+  "main": "dist/public/index.js",
+  "types": "./dist/public/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "release": "changeset publish"
   },
   "bin": {
     "mocha-light": "./bin/mocha-light.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "adrien pingard",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TheSnowyxGIT/mocha-light.git"
+  },
+  "license": "MIT",
   "devDependencies": {
     "@types/node": "^20.8.2",
     "@typescript-eslint/eslint-plugin": "^6.7.4",
     "@typescript-eslint/parser": "^6.7.4",
+    "@types/colors": "^1.2.1",
     "eslint": "^8.50.0",
-    "typescript": "^5.2.2"
+    "typescript": "^5.2.2",
+    "@changesets/cli": "^2.26.2"
   },
   "dependencies": {
-    "@types/colors": "^1.2.1",
     "colors": "^1.4.0"
   }
 }
