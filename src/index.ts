@@ -29,6 +29,7 @@ root.exec().then(() => {
   console.log(green(`${root.runCtx!.successCount} passing`));
   console.log(red(`${root.runCtx!.failCount} failing`));
   console.log();
+  console.log();
   let count = 1;
   for (const test of root.runCtx!.failedTests) {
     const path: (Suite | Test)[] = [];
