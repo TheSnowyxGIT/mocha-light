@@ -2,6 +2,7 @@
   "name": "mocha-light",
   "version": "1.0.1",
   "description": "",
+  "private": false,
   "main": "dist/public/index.js",
   "types": "./dist/public/index.d.ts",
   "files": [
